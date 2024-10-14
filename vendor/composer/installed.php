@@ -3,13 +3,22 @@
         'name' => 'laravel/laravel',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '9bd315e1a11e4e20c7a077414b4a5c8a5231a419',
+        'reference' => '4d527b59b24e93d53e6b4ed01e20086c0d717ff7',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
+        'barryvdh/laravel-debugbar' => array(
+            'pretty_version' => 'v3.14.3',
+            'version' => '3.14.3.0',
+            'reference' => 'c0bee7c08ae2429e4a9ed2bc75679b012db6e3bd',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../barryvdh/laravel-debugbar',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
         'brianium/paratest' => array(
             'pretty_version' => 'v7.5.4',
             'version' => '7.5.4.0',
@@ -418,7 +427,7 @@
         'laravel/laravel' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '9bd315e1a11e4e20c7a077414b4a5c8a5231a419',
+            'reference' => '4d527b59b24e93d53e6b4ed01e20086c0d717ff7',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -513,6 +522,15 @@
             'install_path' => __DIR__ . '/../league/mime-type-detection',
             'aliases' => array(),
             'dev_requirement' => false,
+        ),
+        'maximebf/debugbar' => array(
+            'pretty_version' => 'v1.23.2',
+            'version' => '1.23.2.0',
+            'reference' => '689720d724c771ac4add859056744b7b3f2406da',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../maximebf/debugbar',
+            'aliases' => array(),
+            'dev_requirement' => true,
         ),
         'mockery/mockery' => array(
             'pretty_version' => '1.6.12',
